@@ -1,0 +1,18 @@
+aria.jar:
+% content   aria          %content/aria/
+% skin      aria         classic/1.0 %skin/classic/aria/
+% overlay   chrome://bluegriffon/content/xul/bluegriffon.xul    chrome://aria/content/ariaOverlay.xul
+  content/aria/ariaOverlay.xul      (content/ariaOverlay.xul)
+  content/aria/aria.xml             (content/aria.xml)
+  content/aria/aria.xul             (content/aria.xul)
+  content/aria/aria.js              (content/aria.js)
+  content/aria/aria-roles.js        (content/aria-roles.js)
+  content/aria/aria-properties.js   (content/aria-properties.js)
+  skin/classic/aria/aria.css        (skin/aria.css)
+
+bluegriffon-en-US.jar:
+% locale    aria    en-US    %locale/en-US/aria/
+  locale/en-US/aria/ariaOverlay.dtd (locale/en-US/ariaOverlay.dtd)
+  locale/en-US/aria/aria.dtd        (locale/en-US/aria.dtd)
+  locale/en-US/aria/aria.properties (locale/en-US/aria.properties)
+

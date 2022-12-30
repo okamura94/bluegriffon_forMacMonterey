@@ -1,0 +1,37 @@
+/*.paneSelector > radio {
+  list-style-image: url("chrome://bluegriffon/skin/prefs/buttons.png")
+}
+
+radio[pane="generalPrefPane"] {
+  -moz-image-region: rect(0px, 96px, 32px, 64px)
+}
+
+radio[pane="newPagePrefPane"] {
+  -moz-image-region: rect(0px, 192px, 32px, 160px)
+}
+*/
+
+#locale-listbox[disabled="true"] * {
+  color: silver;
+}
+
+#commandsShortcutsTree[disabled="true"] {
+  color: silver;
+}
+
+/* color:black add 2022.11 */
+prefpane {
+  font-size: 11px;
+  color: black;
+}
+
+prefwindow[sitelicense="true"] *.paneSelector > radio:first-of-type {
+  display: none;
+}
+
+/* Pref-Source.xul Text color change support 2022.12 Start */
+#sourcePrefPane .tree-columnpicker label {
+  color: black;
+}
+/* Pref-Source.xul Text color change support 2022.12 End */
+

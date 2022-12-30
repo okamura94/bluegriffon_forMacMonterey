@@ -1,0 +1,27 @@
+@import url("chrome://bluegriffon/skin/black.css");
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/* Text color change support 2022.11 Start */
+#mainBox .tree-columnpicker label {
+  color: black;
+}
+/* Text color change support 2022.11 End */
+
+#insertStylesheetDialog {
+  -moz-appearance: none;
+  background-color: transparent;
+  color: var(--bg-main-foreground-color);
+}
+
+#contentsTree {
+  margin: 4px 8px 0px 8px;
+  min-width: 200px;
+  height: 200px;
+}
+
+#UrlsToolbox {
+  margin: 0px 8px 8px 8px;
+}
+
